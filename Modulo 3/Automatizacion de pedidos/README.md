@@ -1,7 +1,3 @@
-A continuación tienes un **README.md completo, estructurado e integrado con imágenes**, listo para GitHub. Solo debes guardar tus capturas en `/images` con nombres similares (puedo ajustarlos si quieres exactitud).
-
----
-
 # Automatización de pedidos con AWS
 
 **API Gateway + EventBridge + Step Functions + Lambda**
