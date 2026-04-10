@@ -236,6 +236,7 @@ Eliminar:
 * API Gateway
 
 Para evitar costos innecesarios.
+
 ---
 
 ## 10. Estructura del repositorio
