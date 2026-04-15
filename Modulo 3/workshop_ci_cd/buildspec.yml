@@ -13,4 +13,4 @@ post_build:
 artifacts:
   files:
       - package.yml
-discard-paths: yes
+discard-paths: true
