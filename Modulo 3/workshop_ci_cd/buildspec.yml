@@ -3,6 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
+      - cd "Modulo 3/workshop_ci_cd"
       - yarn install
 
   build:
@@ -15,5 +16,5 @@ phases:
 
 artifacts:
   files:
-    - package.yml
+    - Modulo 3/workshop_ci_cd/package.yml
   discard-paths: true
