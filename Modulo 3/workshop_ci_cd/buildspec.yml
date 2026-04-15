@@ -1,0 +1,16 @@
+version: 0.2
+phases:
+  install:
+      commands:
+      - yarn install
+build:
+    commands:
+    - yarn build
+    
+post_build:
+    commands:
+    - aws cloudformation package --template template.yml --s3-bucket $S3Bucket --output-template package.yml
+artifacts:
+  files:
+      - package.yml
+discard-paths: yes
