@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 
 #################################
-# PARAMETERS (punto único)
+# PARAMETERS
 #################################
 Parameters:
   ProjectName:
@@ -15,7 +15,7 @@ Parameters:
 
   UserId:
     Type: String
-    Description: Identificador único por estudiante (ej: iniciales)
+    Description: Identificador único por estudiante
 
   Stage:
     Type: String
@@ -79,7 +79,7 @@ Resources:
       EndpointConfiguration: REGIONAL
 
   #################################
-  # IAM ROLE BASE (reutilizable)
+  # IAM ROLE BASE
   #################################
   BaseLambdaRole:
     Type: AWS::IAM::Role
